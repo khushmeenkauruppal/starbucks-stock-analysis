@@ -121,4 +121,3 @@ FROM daily_returns
 WHERE Daily_Return IS NOT NULL
 GROUP BY DATE_FORMAT(Date, '%Y-%m')
 ORDER BY Month;
-
